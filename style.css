@@ -1,4 +1,87 @@
+
 body {
-    background: blue;
-  }
+  font-family: sans-serif;
+  margin: 0;
+}
+h1, h2 {
+  font-family: cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+ nav a {
+  display: inline-block;
+  margin: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #2b2d42;
+ }
+ header {
+  padding-top: 50px;
+  text-align: center;
+  background-color: #2b2d42;
+  color:#8d99ae;
+  position: relative;
+ }
+ header h1, header h2 {
+  color: #edf2f4;
+ }
+ h1 {
+  margin: 0;
+ }
+ .content-wrap {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 60px 50px;
+  max-width: 950px;
+  overflow: hidden;
+ }
+ .profile-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+ }
+ .Project {
+  padding-top: 40px;
+  background-color: #edf2f4;
+ }
+.project-wrap {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 950px;
+  display: block;
+}
+h2~p {
+  margin: 0;
+}
+
+ ol li {
+  margin: 8px 0;
+  padding-left: 15px;
+  color: blue;
+ }
+
+.qualification { background: url(./imagin/background.jpg);
+  padding: 40px 0;
+  background-size: cover;
   
+ }
